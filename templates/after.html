@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <title>Sentiment</title>
+        <meta charset="UTF-8" />
+    
+        <link rel="stylesheet" type="text/css" href="static/css/after.css?version=51">
+    </head>
+
+    <body>
+
+        <center>
+        
+        <br> 
+
+        <h1> Prediction </h1>
+            
+        {%if proba >= 0.5%}
+        <img src='./static/img/negative.png' alt="neg" width="500" height="325" >
+
+        {%else%}
+        <img src='./static/img/positive.png' alt="pos" width="500" height="325" >
+        
+        {%endif%}
+
+        <br> <br> <br>
+
+        <a style="text-decoration: none" href='/' class="button">Back Home</a>
+
+        </center>
+
+    </body>
+</html>

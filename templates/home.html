@@ -1,0 +1,30 @@
+<html>   
+    <head>
+        <title>Sentiment</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8" />
+        
+        <link rel="stylesheet" type="text/css" href="static/css/home.css"></link>  
+    </head>
+
+    <body>
+
+        <center>
+
+        <br> 
+
+        <h1> Sentiment </h1>
+            
+        <form name="form" method="POST" action="{{url_for('home')}}"  >
+            <textarea id = "input" type="text" name="input" placeholder="Enter Text Here..."></textarea> 
+            <br> <br>
+           
+            <br>
+            <input type="submit" class="button" value="Predict"> 
+        </form> 
+
+        </center>
+
+        
+    </body>
+</html>
