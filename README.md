@@ -23,7 +23,8 @@ The first-level classifiers are:
 The meta classifier is Logistic Regression.  The class-probabilities of the first-level classifiers are used to train the meta-classifier.
 
 Here’s what an ensemble stacking model does:
-![sys]()
+![sys](https://github.com/toan01-uet/sentiment/blob/main/static/img/stacking.png)
+[reference](https://towardsdatascience.com/ensemble-models-for-classification-d443ebed7efe)
 <!-- ## Data
 The dataset contains 16087 comments:
 
