@@ -17,7 +17,11 @@ RE_CLEAR_3 = re.compile("\s+")
 
 # Import Vietnamese stop words
 stopwords = set()
+<<<<<<< HEAD
 with open(r"./vietnamese-stopwords-dash.txt", "r", encoding="utf-8") as reader:
+=======
+with open(r"./vietnamese-stopwords-dash.txt", "r", encoding= "utf-8") as reader:
+>>>>>>> demo
     content = reader.readlines()
     for x in content:
         stopwords.add(x.strip())
